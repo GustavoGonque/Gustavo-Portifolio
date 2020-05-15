@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://cdnstatic8.com/ctrlplay.com.br/wp-content/uploads/2019/04/contato-background.jpg");
+    background-size: auto 100vh;
+    background-repeat: round;
+    height: 100vh;
+}
+
+.menu{
+    background-color: black;
+    color: aqua;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.title-site, .site-subtitle{
+    color: rgb(14, 18, 248);
+    text-align: center;
+}
+
+
