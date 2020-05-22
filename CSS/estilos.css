@@ -5,10 +5,9 @@
 }
 
 body{
-    background-image: url("https://cdnstatic8.com/ctrlplay.com.br/wp-content/uploads/2019/04/contato-background.jpg");
-    background-size: auto 100vh;
-    background-repeat: round;
+    background-color:white;
     height: 100vh;
+    font-family: 'DM Mono', monospace;
 }
 
 /* Tamanho de telas */
@@ -19,12 +18,30 @@ body{
     }
 }
 
+
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
+    background-color: beige;
 }
+
+
+
+.img-title .img-header{
+   margin-left: -350px;
+   margin-top: 150px;
+   height: 30em;
+   width: 30em;
+   
+}
+
+.img-s{
+    display: flex;
+    justify-content: flex-end;
+    width: 30em;
+ }
 
 .menu{
     background-color: black;
@@ -40,33 +57,119 @@ header{
 }
 
 .menu li{
-    text-decoration: none;
     list-style: none;
-    font-size: 20px;
 }
 
 .menu a{
     display: block;
     padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: 'Squada One', cursive;
 }
 
 a {
-    list-style: none;
     text-decoration: none;
     color: aliceblue;
 }
 
 a:hover{
-    background-color: rgb(77, 162, 184);
+    background-color: #6C63FF;
     color: aliceblue;
 }
 
 .title-site, .site-subtitle{
-    color: rgb(14, 18, 248);
+    color: #6C63FF;
     text-align: center;
 }
 
-.img-portfolio{
+.title-site{
+    font-size: 5em;
+    font-family: 'Squada One', cursive;
+}
+
+.site-subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2.5em;
+}
+
+.portifolio{
+    padding: 2em;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.portifolio h2{
+    font-family: 'Staatliches', cursive;
+    color: #6C63FF;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.sobre{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    height: 50vh;
+}
+
+.sobre .tecnologia img{
+    width: 4em;
+}
+
+.sobre h2{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #6C63FF;
+    font-size: 3.5em;
+}
+
+.sobre .c-sobre p{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.portifolio figcaption{
+    font-size: 1.8em;
+}
+
+.portifolio .grid {
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    grid-template-columns: 180px 180px;
+    text-align: center;
+  }
+  
+  .portifolio figure {
+    text-align: center;
+  }
+
+.img-portifolio{
     height: 180px;
     width: 180px;
+}
+
+footer{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    height: 10vh;
+}
+
+footer h2{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #6C63FF;
+    font-size: 3.5em;
+}
+
+.img-contact img{
+    margin-left: -30em;
+    margin-right: 5em;
+    width: 30em;
+    align-items: flex-start;
 }
