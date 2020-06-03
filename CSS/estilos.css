@@ -94,7 +94,7 @@ a:hover{
 
 .portifolio{
     padding: 2em;
-    height: 100vh;
+    min-height: 100vh;
     background-color: antiquewhite;
 }
 
@@ -111,7 +111,7 @@ a:hover{
     display: flex;
     justify-content: center;
     padding: 2em;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .sobre .tecnologia img{
